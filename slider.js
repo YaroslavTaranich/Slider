@@ -1,3 +1,5 @@
+"use strict";
+
 function slider({container, slide, nextArrow, prevArrow, totalCounter, currentCounter, wrapper, field}) {
 
     const slides = document.querySelectorAll(slide),

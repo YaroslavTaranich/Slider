@@ -4,8 +4,8 @@ function slider({container, slide, nextArrow, prevArrow, totalCounter, currentCo
 
     const slides = document.querySelectorAll(slide),
         slider = document.querySelector(container),
-        current = document.querySelector(currentCounter),
-        total = document.querySelector(totalCounter),
+        // current = document.querySelector(currentCounter),
+        // total = document.querySelector(totalCounter),
         prev = document.querySelector(prevArrow),
         next = document.querySelector(nextArrow),
         slidesWapper = document.querySelector(wrapper),
@@ -137,9 +137,9 @@ function slider({container, slide, nextArrow, prevArrow, totalCounter, currentCo
 
 slider({
     container: '.offer__slider',
-    nextArrow: '.offer__slider-next',
+    nextArrow: '.offer__slider-control-prev',
     slide:  '.offer__slide',
-    prevArrow: '.offer__slider-prev',
+    prevArrow: '.offer__slider-control-next',
     totalCounter: '#total',
     currentCounter: '#current',
     wrapper: '.offer__slider-wrapper',
